@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<estoque>
+    <produto>
+        <id>1</id>
+        <nome>Monitor Gamer Samsung 24'</nome>
+        <marca>Samsung</marca>
+        <cnpj_fornecedor>77.656.205/0001-54</cnpj_fornecedor>
+        <preco_custo>248.99</preco_custo>
+        <preco_venda>578.99</preco_venda>
+        <qtd_atual>36</qtd_atual>
+        <estoque_min>15</estoque_min>
+    </produto>
+    <produto>
+        <id>2</id>
+        <nome>Memória Kingston, 8GB, 2400MHz</nome>
+        <marca>Kingston</marca>
+        <cnpj_fornecedor>06.171.332/0001-15</cnpj_fornecedor>
+        <preco_custo>232</preco_custo>
+        <preco_venda>599</preco_venda>
+        <qtd_atual>252</qtd_atual>
+        <estoque_min>40</estoque_min>
+    </produto>
+    <produto>
+        <id>3</id>
+        <nome>SSD 480 GB Kingston A400, SATA</nome>
+        <marca>Kingston</marca>
+        <cnpj_fornecedor>34.487.561/0001-89</cnpj_fornecedor>
+        <preco_custo>64,99</preco_custo>
+        <preco_venda>159,99</preco_venda>
+        <qtd_atual>450</qtd_atual>
+        <estoque_min>100</estoque_min>
+    </produto>
+    <produto>
+        <id>4</id>
+        <nome>SSD 960 GB Kingston A400</nome>
+        <marca>Kingston</marca>
+        <cnpj_fornecedor>34.487.561/0001-89</cnpj_fornecedor>
+        <preco_custo>104.99</preco_custo>
+        <preco_venda>269.99</preco_venda>
+        <qtd_atual>500</qtd_atual>
+        <estoque_min>100</estoque_min>
+    </produto>
+    <produto>
+        <id>5</id>
+        <nome>SSD 512 GB Kingston KC600</nome>
+        <marca>Kingston</marca>
+        <cnpj_fornecedor>34.487.561/0001-89</cnpj_fornecedor>
+        <preco_custo>159.99</preco_custo>
+        <preco_venda>347,99</preco_venda>
+        <qtd_atual>350</qtd_atual>
+        <estoque_min>70</estoque_min>
+    </produto>
+    <produto>
+        <id>6</id>
+        <nome>SSD 500 GB Kingston NV2, M.2 2280</nome>
+        <marca>Kingston</marca>
+        <cnpj_fornecedor>34.487.561/0001-89</cnpj_fornecedor>
+        <preco_custo>69.99</preco_custo>
+        <preco_venda>174.99</preco_venda>
+        <qtd_atual>400</qtd_atual>
+        <estoque_min>100</estoque_min>
+    </produto><produto>
+        <id>7</id>
+        <nome>Processador AMD Ryzen 7 5700X, 3.4GHz</nome>
+        <marca>AMD</marca>
+        <cnpj_fornecedor>23.488.241/0001-27</cnpj_fornecedor>
+        <preco_custo>499.99</preco_custo>
+        <preco_venda>1248.99</preco_venda>
+        <qtd_atual>145</qtd_atual>
+        <estoque_min>60</estoque_min>
+    </produto><produto>
+        <id>8</id>
+        <nome>Smartphone Samsung Galaxy S22 Ultra 5G, 256GB, 12GB RAM</nome>
+        <marca>Samsung</marca>
+        <cnpj_fornecedor>77.656.205/0001-54</cnpj_fornecedor>
+        <preco_custo>1249.49</preco_custo>
+        <preco_venda>3879.99</preco_venda>
+        <qtd_atual>68</qtd_atual>
+        <estoque_min>70</estoque_min>
+    </produto><produto>
+        <id>9</id>
+        <nome>Impressora Multifuncional HP OfficeJet Pro 7740</nome>
+        <marca>HP</marca>
+        <cnpj_fornecedor>72.100.309/0001-64</cnpj_fornecedor>
+        <preco_custo>699.99</preco_custo>
+        <preco_venda>1819.99</preco_venda>
+        <qtd_atual>65</qtd_atual>
+        <estoque_min>20</estoque_min>
+    </produto><produto>
+        <id>10</id>
+        <nome>Fechadura Digital KaBuM</nome>
+        <marca>Kabum</marca>
+        <cnpj_fornecedor>94.467.421/0001-72</cnpj_fornecedor>
+        <preco_custo>159.99</preco_custo>
+        <preco_venda>399.99</preco_venda>
+        <qtd_atual>170</qtd_atual>
+        <estoque_min>60</estoque_min>
+    </produto><produto>
+        <id>11</id>
+        <nome>SSD 512 GB Kingston KC600</nome>
+        <marca>Kingston</marca>
+        <cnpj_fornecedor>34.487.561/0001-89</cnpj_fornecedor>
+        <preco_custo>248.99</preco_custo>
+        <preco_venda>578.99</preco_venda>
+        <qtd_atual>36</qtd_atual>
+        <estoque_min>15</estoque_min>
+    </produto><produto>
+        <id>12</id>
+        <nome>Fonte MSI MAG A650BN, ATX, 650W</nome>
+        <marca>MSI</marca>
+        <cnpj_fornecedor>65.302.077/0001-61</cnpj_fornecedor>
+        <preco_custo>141.99</preco_custo>
+        <preco_venda>342.99</preco_venda>
+        <qtd_atual>36</qtd_atual>
+        <estoque_min>50</estoque_min>
+    </produto><produto>
+        <id>13</id>
+        <nome>Placa de Vídeo RTX 3060</nome>
+        <marca>Asus</marca>
+        <cnpj_fornecedor>17.239.014/0001-65</cnpj_fornecedor>
+        <preco_custo>699.99</preco_custo>
+        <preco_venda>1919.99</preco_venda>
+        <qtd_atual>65</qtd_atual>
+        <estoque_min>100</estoque_min>
+    </produto><produto>
+        <id>14</id>
+        <nome>Headset Gamer JBL Quantum 300</nome>
+        <marca>JBL</marca>
+        <cnpj_fornecedor>55.953.613/0001-35</cnpj_fornecedor>
+        <preco_custo>99.99</preco_custo>
+        <preco_venda>219.99</preco_venda>
+        <qtd_atual>136</qtd_atual>
+        <estoque_min>100</estoque_min>
+    </produto><produto>
+        <id>15</id>
+        <nome>Cadeira Gamer Husky Gaming Snow</nome>
+        <marca>Husky</marca>
+        <cnpj_fornecedor>73.532.262/0001-70</cnpj_fornecedor>
+        <preco_custo>199.99</preco_custo>
+        <preco_venda>449.99</preco_venda>
+        <qtd_atual>22</qtd_atual>
+        <estoque_min>15</estoque_min>
+    </produto><produto>
+        <id>16</id>
+        <nome>Teclado Mecânico Gamer HyperX Alloy MKW100</nome>
+        <marca>Hyperx</marca>
+        <cnpj_fornecedor>97.685.523/0001-50</cnpj_fornecedor>
+        <preco_custo>79.99</preco_custo>
+        <preco_venda>199.99</preco_venda>
+        <qtd_atual>126</qtd_atual>
+        <estoque_min>100</estoque_min>
+    </produto><produto>
+        <id>17</id>
+        <nome>Notebook Gamer Lenovo Gaming 3i Intel Core i5-11300H</nome>
+        <marca>Lenovo</marca>
+        <cnpj_fornecedor>28.417.783/0001-22</cnpj_fornecedor>
+        <preco_custo>1399.99</preco_custo>
+        <preco_venda>3729.99</preco_venda>
+        <qtd_atual>65</qtd_atual>
+        <estoque_min>50</estoque_min>
+    </produto><produto>
+        <id>18</id>
+        <nome>Placa Mãe Asus TUF GAMING A520M-PLUS II</nome>
+        <marca>ASUS</marca>
+        <cnpj_fornecedor>76.241.626/0001-51</cnpj_fornecedor>
+        <preco_custo>222.99</preco_custo>
+        <preco_venda>548.99</preco_venda>
+        <qtd_atual>35</qtd_atual>
+        <estoque_min>100</estoque_min>
+    </produto><produto>
+        <id>19</id>
+        <nome>Processador Intel Core i9-13900KF</nome>
+        <marca>Intel</marca>
+        <cnpj_fornecedor>79.293.683/0001-72</cnpj_fornecedor>
+        <preco_custo>1289.99</preco_custo>
+        <preco_venda>3849.99</preco_venda>
+        <qtd_atual>371</qtd_atual>
+        <estoque_min>200</estoque_min>
+    </produto><produto>
+        <id>20</id>
+        <nome>Water Cooler Gamer Rise Mode</nome>
+        <marca>Risemode</marca>
+        <cnpj_fornecedor>62.252.650/0001-81</cnpj_fornecedor>
+        <preco_custo>99.99</preco_custo>
+        <preco_venda>229.99</preco_venda>
+        <qtd_atual>35</qtd_atual>
+        <estoque_min>18</estoque_min>
+    </produto><produto>
+        <id>21</id>
+        <nome>Fonte NZXT C650 Gold, 650W, 80 Plus Gold</nome>
+        <marca>NZXT</marca>
+        <cnpj_fornecedor>78.063.549/0001-12</cnpj_fornecedor>
+        <preco_custo>299.99</preco_custo>
+        <preco_venda>699.99</preco_venda>
+        <qtd_atual>65</qtd_atual>
+        <estoque_min>70</estoque_min>
+    </produto><produto>
+        <id>22</id>
+        <nome>Processador Intel Core i5-10400F</nome>
+        <marca>Intel</marca>
+        <cnpj_fornecedor>56.350.872/0001-34</cnpj_fornecedor>
+        <preco_custo>278.99</preco_custo>
+        <preco_venda>619.99</preco_venda>
+        <qtd_atual>189</qtd_atual>
+        <estoque_min>150</estoque_min>
+    </produto><produto>
+        <id>23</id>
+        <nome>Processador Intel Core i5-12400</nome>
+        <marca>Intel</marca>
+        <cnpj_fornecedor>51.231.796/0001-24</cnpj_fornecedor>
+        <preco_custo>459.99</preco_custo>
+        <preco_venda>1099.99</preco_venda>
+        <qtd_atual>345</qtd_atual>
+        <estoque_min>150</estoque_min>
+    </produto><produto>
+        <id>24</id>
+        <nome>Mouse Gamer Logitech G502 HERO</nome>
+        <marca>Logitech</marca>
+        <cnpj_fornecedor>81.764.223/0001-27</cnpj_fornecedor>
+        <preco_custo>119.99</preco_custo>
+        <preco_venda>269.99</preco_venda>
+        <qtd_atual>125</qtd_atual>
+        <estoque_min>150</estoque_min>
+    </produto><produto>
+        <id>25</id>
+        <nome>Coletor De Dados, Zebra Tc21</nome>
+        <marca>ZEBRA</marca>
+        <cnpj_fornecedor>04.910.761/0001-31</cnpj_fornecedor>
+        <preco_custo>1299.99</preco_custo>
+        <preco_venda>3199.99</preco_venda>
+        <qtd_atual>45</qtd_atual>
+        <estoque_min>20</estoque_min>
+    </produto>
+</estoque>
