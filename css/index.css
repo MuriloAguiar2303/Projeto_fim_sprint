@@ -1,0 +1,75 @@
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom right, rgb(203, 112, 223), rgb(209, 209, 193));
+    font-family: Minecraftia;
+}
+
+#tabela{
+    border: solid 1 px black;
+}
+
+table,
+td,
+th {
+    background-color: rgb(122, 107, 124);
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    box-shadow: 4px 10px 10px black;
+    width: auto;
+    text-align: center;
+}
+
+td{
+    color: black;
+    background-color: rgb(255, 255, 255);
+    padding: 8px;
+    font-size: 10px;
+}
+    
+
+th{
+    border: solid 1px black;
+    color: black;
+    font-size: 5px;
+    justify-content: center;
+    background-color: #bdb7b7;
+    /* padding: 8px; */
+    color:rgb(6, 255, 6);
+}
+#pagination{
+    padding-top: 40px;
+    padding-bottom: 10px;
+    font-family: Minecraftia;
+}
+.container{
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+#tabela td:first-child {
+    width: 100px;
+    justify-content: center;
+}
+
+
+#tabela td:nth-child(4) {
+    width: 150px;
+  
+}
+
+
+#tabela td:nth-child(2) {
+    width: 400px;
+}
+
+

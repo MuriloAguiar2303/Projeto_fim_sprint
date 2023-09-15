@@ -1,0 +1,53 @@
+@media (max-width:1440px) {
+    .footer-container {
+        font-size: 10px;
+    }
+}
+
+@media (max-width:1200px) {
+    .footer-container {
+        font-size: 7px;
+    }
+}
+
+@media (max-width:900px) {
+    .footer-container {
+        font-size: 7px;
+    }
+
+    .footer-container .students .social-infos h3 {
+        width: 100%;
+    }
+
+    .social-infos a{
+        width: 10%;
+        max-width: 50px;
+      }
+}
+
+@media (max-width:768px) {
+    .main-container:hover .toggle-page-content {
+        width: 80%;
+    }
+
+    .footer-container {
+        font-size: 5px;
+    }
+}
+
+
+@media (max-width:550px) {
+    .main-container:hover .toggle-page-content {
+        width: 100%;
+    }
+
+    .footer-container {
+        font-size: 4px;
+    }
+
+    .social-infos a{
+        max-width: 30px;
+        height: 50%;
+        align-self: center;
+      }
+}

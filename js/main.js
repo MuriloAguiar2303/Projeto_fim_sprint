@@ -1,4 +1,4 @@
-let url = "estoque.xml";
+let url = "../dados/estoque.xml";
 var currentPage = 1;  // Página atual
 var itemsPerPage = 10;  // Número de itens por página
 var tableHeader = `<tr>

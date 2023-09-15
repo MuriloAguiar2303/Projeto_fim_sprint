@@ -1,29 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">    
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/font-mine.css">
+  <link rel="stylesheet" href="./css/home-page.css">
+  <link rel="stylesheet" href="./css/media-queries.css">
 </head>
 <body>
-    <div class="container">
-
-        
-            <table id="tabela"></table>
-    
-    
-        <div id="pagination">
-            <button id="prevPage">Anterior</button>
-            <span id="pageInfo">Página 1 de 1</span>
-            <button id="nextPage">Próxima</button>
+  <div class="all-page">
+    <header class="top-page-container">
+      <div class="title-page-content"><h1 class="dark_green">Titulo</h1></div>
+    </header>
+    <main class="main-container">
+      <div class="toggle-page-content">
+        <div class="design-buttons">
+          <div style="width: 100%; height: 50%; display: flex; justify-content: space-between;">
+            <button style="background-color: rgb(182, 2, 2);"></button>
+            <button style="background-color: rgb(197, 135, 1);"></button>
+            <button></button>
+            <button></button>
+          </div>
+          <div style="width: 100%; height:25%; display: flex; justify-content: space-evenly;">
+            <button></button>
+            <button></button>
+          </div>
+          <div style="width: 70%; height: 25%; display: flex; justify-content: space-around;">
+            <button></button>
+            <button style="background-color: rgb(0, 0, 255);"></button>
+            <button></button>
+          </div>
+           <div style="width: 70%; height: 25%; display: flex; justify-content: space-between;">
+            <button></button>
+            <button style="background-color: rgb(0, 0, 255);"></button>
+            <button></button>
+          </div>
         </div>
-    
-
-    </div>
-    
-    
-    <script src="code.jquery.com_jquery-3.7.1.min.js"></script>
-    <script src="main.js"></script>
+        <div class="buttons-content">
+          <button class="table-1" onclick="tabela1()"><div class="enderman-eye">table 1</div></button>
+          <button class="table-2"><div class="enderman-eye">table 2</div></button>
+        </div>
+      </div>
+    </main>
+    <footer class="footer-container">
+      <div class="profile-content" style="background-color: gray;">
+        <div class="students">
+          <div class="social-infos"><a href="" class="enderman-head-receive"></a> <h3 class="dark_purple shadow" ><span class="aqua shadow">name: </span> Lucas Manrick Teodoro da Fonseca</h3></div>
+          <div class="social-infos"><a href="" class="steve-head-receive"></a> <h3 class="green"><span class="aqua shadow">name: </span>Murilo Henrique de Aguiar</h3></div>
+        </div>
+        <div class="students">
+          <div class="social-infos"><a href="" class="skeleton-head-receive"></a> <h3 class="gold shadow"><span class="aqua shadow">name: </span>Kevin Fernando Moreira Da Silva</h3></div>
+          <div class="social-infos"><a href="" class="creeper-head"></a> <h3 class="blue shadow"><span class="aqua shadow">name: </span>Joao Victor Nascimento Wasconcelos</h3></div>
+        </div>
+        <div class="students">
+          <div class="social-infos"><a href="" class="herobrine-head"></a> <h3 class="light_purple shadow"><span class="aqua shadow">name: </span>Gustavo Alcantara Menezes</h3></div>
+          <div class="social-infos"><a href="" class="block-mine"></a> <h3 class="red shadow"><span class="aqua shadow">name: </span>Tayná Mendonça</h3></div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="js/js_paginaHome.js"></script>
 </body>
 </html>
