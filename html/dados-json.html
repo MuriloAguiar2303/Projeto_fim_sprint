@@ -5,13 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../css/dados-json.css">
+    <link rel="stylesheet" href="../css/font-mine.css">
     <script src="../js/dados-json.js" defer></script>
 </head>
 <body>
     <div class="all-page">
-        <table id="main-table">
-
-        </table>
+    <header class="top-page-menu">
+        <div class="title-insert">Tabela 2</div>
+        <div id="pagination">
+            <button id="prevPage" class="btn-json">Anterior</button>
+            <span id="pageInfo">Página 1 de 1</span>
+            <button id="nextPage" class="btn-json">Próxima</button>
+        </div>
+        <div class="end-menu-tools">
+            <button onclick="voltar()">HOME</button>
+            <button onclick="ir()">tabela 1</button>
+            
+        </div>
+    </header>
+    <main class="main-table-content">
+        <table id="main-table"></table>
+    </main>
     </div>
 </body>
 </html>

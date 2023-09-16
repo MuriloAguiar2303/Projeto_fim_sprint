@@ -36,11 +36,11 @@ td{
 th{
     border: solid 1px black;
     color: black;
-    font-size: 5px;
+    font-size: 15px;
     justify-content: center;
     background-color: #bdb7b7;
     /* padding: 8px; */
-    color:rgb(6, 255, 6);
+    color:rgb(47, 50, 47);
 }
 #pagination{
     padding-top: 40px;
@@ -73,3 +73,21 @@ th{
 }
 
 
+button{
+    border-radius: 6px;
+    border: none;
+    background-color: rgb(240, 63, 240);
+    font-weight: bold;
+    text-transform: uppercase ;
+    padding: 9px;
+    cursor: pointer;
+}
+
+.btn-div{
+    display: flex;
+}
+
+.btn-home{
+
+    margin: 10px;
+}

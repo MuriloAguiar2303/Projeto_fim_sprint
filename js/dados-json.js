@@ -1,3 +1,6 @@
+var currentPage = 1;  // Página atual
+var itemsPerPage = 9;  // Número de itens por página
+
 let tableConstructor = 
 `<tr>
     <th>id</th>
@@ -10,8 +13,10 @@ let tableConstructor =
     <th>telefone</th>
 </tr>`
 
-const clientConsult = async(table,limitPerPage) => {
-   const data = await fetch ('http://192.168.40.3:3000/clientes');
+var tableBody = '';  // Corpo da tabela
+
+const clientConsult = async() => {
+   const data = await fetch ('http://192.168.40.10:3000/clientes');
 
    const clients = await data.json()
 
@@ -22,7 +27,7 @@ const clientConsult = async(table,limitPerPage) => {
     console.log (clients)
 
     clients.forEach ((el) => {
-        tableConstructor += `
+        tableBody += `
     <tr>
         <td>${el.id}</td> 
         <td>${el.nome}</td> 
@@ -35,8 +40,48 @@ const clientConsult = async(table,limitPerPage) => {
     </tr>`     
     })
 
-    document.getElementById ('main-table').innerHTML = tableConstructor
+    document.getElementById ('main-table').innerHTML = tableConstructor + tableBody;
+    updateTable()
 }
 
 clientConsult ()
 
+function voltar(){
+    window.location.assign("../index.html")
+}
+function ir(){
+    window.location.assign("leituraXML.html")
+}
+
+
+function updateTable(){
+    var startIndex = (currentPage - 1) * itemsPerPage;
+    var endIndex = startIndex + itemsPerPage;
+
+    var tableRows = tableBody.split('</tr>');
+    
+    var tableHTML = tableConstructor + tableRows.slice(startIndex, endIndex).join('</tr>');
+    
+    document.getElementById('main-table').innerHTML = tableHTML;
+
+    var totalItems = tableRows.length - 1; // Descontar o último elemento vazio
+    var totalPages = Math.ceil(totalItems / itemsPerPage);
+    document.getElementById('pageInfo').innerText = `Página ${currentPage} de ${totalPages}`;
+}
+
+document.getElementById('nextPage').addEventListener('click', function () {
+    var totalItems = tableBody.split('</tr>').length - 1;
+    var totalPages = Math.ceil(totalItems / itemsPerPage);
+
+    if (currentPage < totalPages) {
+        currentPage++;
+        updateTable();
+    }
+});
+
+document.getElementById('prevPage').addEventListener('click', function () {
+    if (currentPage > 1) {
+        currentPage--;
+        updateTable();
+    }
+});

@@ -36,12 +36,7 @@ $.ajax(url)
         alert("Ocorreu um erro na leitura do arquivo XML");
     });
 
-document.getElementById('prevPage').addEventListener('click', function () {
-    if (currentPage > 1) {
-        currentPage--;
-        updateTable();
-    }
-});
+
 
 function updateTable() {
     var startIndex = (currentPage - 1) * itemsPerPage;
@@ -70,3 +65,17 @@ document.getElementById('nextPage').addEventListener('click', function () {
         updateTable();
     }
 });
+
+document.getElementById('prevPage').addEventListener('click', function () {
+    if (currentPage > 1) {
+        currentPage--;
+        updateTable();
+    }
+});
+
+function voltar(){
+    window.location.assign("../index.html")
+}
+function ir(){
+    window.location.assign("dados-json.html")
+}
