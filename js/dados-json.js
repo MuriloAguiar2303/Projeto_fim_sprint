@@ -16,7 +16,7 @@ let tableConstructor =
 var tableBody = '';  // Corpo da tabela
 
 const clientConsult = async() => {
-   const data = await fetch ('http://192.168.40.10:3000/clientes');
+   const data = await fetch ('http://192.168.40.3:3000/clientes');
 
    const clients = await data.json()
 
